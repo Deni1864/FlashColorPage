@@ -1,0 +1,41 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+.grid-element1{
+    grid-area: header;
+}
+.grid-element2{
+    grid-area: main;
+}
+.grid-element3{
+    grid-area: footer;
+}
+button{
+    margin: auto;
+    display: block;
+}
+p{
+    text-align: center;
+}
+#right{
+    margin-left: 10%;
+}
+#left{
+    margin-right: 10%;
+}
+#upper-right{
+    margin-left: 10%;
+}
+#lower-left{
+    margin-right: 10%;
+}
+#upper-left{
+    margin-right: 10%;
+}
+#lower-right{
+    margin-left: 10%;
+}
